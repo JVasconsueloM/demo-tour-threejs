@@ -99,7 +99,7 @@ export const addBuilding = (scene: Scene, camera: PerspectiveCamera, controls: M
         const intersects = raycaster.intersectObject(icon, true);
 
         if (intersects.length > 0) {
-            window.open('/chart.html', '_blank', 'width=800,height=600,scrollbars=yes,resizable=yes');
+            window.open('/demo-tour-threejs/chart.html', '_blank', 'width=800,height=600,scrollbars=yes,resizable=yes');
         }
     }
 

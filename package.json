@@ -1,0 +1,25 @@
+{
+  "name": "cookie-factory-viewer",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port=5174",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/luxon": "^3.4.2",
+    "typescript": "^5.2.2",
+    "vite": "^5.3.1"
+  },
+  "dependencies": {
+    "@seregpie/three.text-sprite": "^3.2.0",
+    "@types/three": "^0.166.0",
+    "chart.js": "^4.4.3",
+    "chartjs-adapter-luxon": "^1.3.1",
+    "ldloader": "^3.0.3",
+    "luxon": "^3.4.4",
+    "three": "^0.166.0"
+  }
+}
